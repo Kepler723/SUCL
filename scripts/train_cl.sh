@@ -1,0 +1,17 @@
+ python sucl/train.py --data_dir ./dataset \
+  --transformer_type bert \
+  --model_name_or_path microsoft/BiomedNLP-PubMedBERT-base-uncased-abstract \
+  --train_file train/Train_lg.tsv \
+  --train_batch_size 3 \
+  --gradient_accumulation_steps 1 \
+  --num_labels 9 \
+  --learning_rate 2e-5 \
+  --max_grad_norm 1.0 \
+  --warmup_ratio 0.06 \
+  --num_train_epochs 25 \
+  --seed 77 \
+  --num_class 9 \
+  --gpuNum  7 \
+  --linear_size 256 \
+  --attn_dropout 0 \
+  --mode 0 

@@ -1,0 +1,22 @@
+ python sucl1/train.py --data_dir ../processed/BioRED \
+  --transformer_type bert \
+  --dataset BioRED \
+  --model_name_or_path microsoft/BiomedNLP-PubMedBERT-base-uncased-abstract \
+  --train_file train/train_scibert_mx.tsv \
+  --train_batch_size 14 \
+  --gradient_accumulation_steps 1 \
+  --num_labels 9 \
+  --learning_rate 2e-5 \
+  --max_grad_norm 1.0 \
+  --warmup_ratio 0.06 \
+  --num_train_epochs 25 \
+  --seed 77 \
+  --num_class 9 \
+  --gpuNum  3 \
+  --linear_size 256 \
+  --attn_dropout 0 \
+  --alpha 0.2 \
+  --beta 0.35 \
+  --mode 0 \
+  --ucl 1 \
+  --scl 1 
