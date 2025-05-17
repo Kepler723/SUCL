@@ -1,0 +1,12 @@
+{
+    "entity": {
+        "Chemical": 0,
+        "Disease": 1
+    },
+    "relation":{
+        "None": 0,
+        "CID": 1
+    },
+    "alpha": 0.14,
+    "beta": 0.8
+}

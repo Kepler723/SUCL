@@ -1,0 +1,23 @@
+{
+    "entity": {
+        "GeneOrGeneProduct": 0,
+        "DiseaseOrPhenotypicFeature": 1,
+        "ChemicalEntity": 2,
+        "OrganismTaxon": 3,
+        "SequenceVariant": 4,
+        "CellLine": 5
+    },
+    "relation":{
+        "None": 0,
+        "Association": 1,
+        "Positive_Correlation": 2,
+        "Bind": 3,
+        "Negative_Correlation": 4,
+        "Comparison": 5,
+        "Cotreatment": 6,
+        "Conversion": 7,
+        "Drug_Interaction": 8
+    },
+    "alpha": 0.2,
+    "beta": 0.35
+}
